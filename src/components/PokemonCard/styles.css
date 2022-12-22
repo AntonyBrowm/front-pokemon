@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+.container-Card-Pokemon{
+	box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+	background: transparent;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 230px;
+    width: 25%;
+}
+
+.image-wrapper-Pokemon{
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(#000, 0.2);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.img{
+	min-height: 130px;
+    max-height: fit-content;
+	height: 50%;
+}
+.image-wrapper-Pokemon:hover{
+    box-shadow: 0 2px 4px rgba(#000, 0.2),
+    0 4px 8px rgba(#000, 0.2);
+}
+.image-wrapper-Pokemon:active {
+    box-shadow: none;
+    transform-origin: center;
+    transform: scale(0.98);
+  }
+.card-title-Pokemon{
+    margin: 0 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin: 20px;
+}
+.card-status-Pokemon{
+    display: inline-block;
+    background: #212121;
+    padding: 8px 30px;
+    color: #FFF;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+}
+
+.list-card-Pokemon{
+	height: 230px;
+    width: 340px;
+    box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+    display: flex;
+  }
+
+  .card-type-Pokemon{
+	text-align: center;
+	padding:10px;
+    box-shadow: 10px 0px 0px 0.5px rgb(255, 255, 255);
+	font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+	color: #FFF;
+    text-transform: uppercase;
+  }
+  .button-escoger{
+	text-align: center;
+    box-shadow: 0px 0px 0px 0.5px rgb(24, 102, 154);
+	margin: 20px;
+	font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+	color: #FFF;
+  }
+  .button-detalles{
+	text-align: center;
+    box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+	margin: 20px;
+	font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+	color: #FFF;
+	width: 90%;
+  }
+  

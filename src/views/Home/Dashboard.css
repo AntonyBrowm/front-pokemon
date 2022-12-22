@@ -1,0 +1,40 @@
+.dashboard {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dashboard__container {
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+  }
+  .grid
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .gridF{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 20px;
+  }
+  .grid-elements
+  {
+    align-self: center;
+  }
+   .grid-elements
+  {
+    align-self: center;
+  }
+  .dashboard__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+  }
+  
