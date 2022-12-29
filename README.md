@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+#¿QUE ES?
+ESTE ES UN PROYECTO DE FRONT END UTILIZANDO REACTJS DONDE SE CONSUME UNA API DE POKEMON Y UN LOGIN/REGISTRO CON FIREBASE 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
